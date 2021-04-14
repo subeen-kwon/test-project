@@ -1,0 +1,145 @@
+@import url(all.css);
+@import url(xeicon.css);
+/*인터넷이 연결되어 있는 상태*/
+@import url(@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700;900&family=Noto+Serif+KR:wght@300;500;700&display=swap');
+/*인터넷이 연결되지 않은 상태*/
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 100;
+    src: url(../fonts/NotoSansKR-Thin.otf);
+}
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    src: url(../fonts/NotoSansKR-Light.otf);
+}
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    src: url(../fonts/NotoSansKR-Medium.otf);
+}
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    src: url(../fonts/NotoSansKR-Bold.otf);
+}
+@font-face{
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    src: url(../fonts/NotoSansKR-Black.otf);
+}
+@font-face{
+    font-family: 'Noto Serif KR';
+    font-weight: 300;
+    src: url(../fonts/NotoSerifKR-Light.otf);
+}
+@font-face{
+    font-family: 'Noto Serif KR';
+    font-weight: 500;
+    src: url(../fonts/NotoSerifKR-Medium.otf);
+}
+@font-face{
+    font-family: 'Noto Serif KR';
+    font-weight: 700;
+    src: url(../fonts/NotoSerifKR-Bold.otf);
+}
+body{
+    background-color: #eee;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    font-size: 14px;line-height: 20px;color: #555;
+    
+}
+h1,h2.h3,h4.h5,h6{
+    font-family: 'Noto Serif KR';
+}
+/*헤더*/
+div.menuWrap{}
+div.menuWrap menu{
+    width: 90%;max-width: 1080px;
+    margin: 0 auto;
+}
+div.hdrWrap{}
+div.hdrWrap header{
+    width: 90%;max-width: 1080px;
+    margin: 0 auto;
+}
+div.hdrWrap header h1{
+    font-size: 16px;color: #000;line-height: 40px;
+}
+div.hdrWrap header h2{
+    font-weight: 700;font-size: 14px;line-height: 40px;
+}
+
+div.navWrap{}
+div.navWrap nav{
+    width: 90%; max-width: 1080px;margin: 0 auto;
+}
+div.navWrap nav dl{
+    font-family: 'Noto Sans KR';
+}
+div.navWrap nav dl dt{
+    font-weight: 700;font-size: 14px;line-height: 40px;
+    text-transform: uppercase;
+}
+div.navWrap nav dl dd{
+    line-height: 40px;text-transform: uppercase;
+}
+
+/*콘텐츠*/
+div.content{
+    padding: 120px 0;
+    overflow-x:hidden;
+}
+div.content header{
+    width: 90%;max-width: 1080px;
+    margin: 0 auto;
+}
+div.content header h3{
+    font-family: 'Noto Serif KR';
+    font-weight: 700;font-size: 36px;line-height: 80px;color: #000;
+}
+div.content header p{
+    overflow: hidden;
+}
+div.content section{
+    width: 90%;max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+div.content section h4{
+    font-weight: 700;font-size: 18px;line-height: 40px;color: #000;
+}
+div.content section h5{
+    font-weight: 700;font-size: 14px;line-height: 40px;color: #333;
+}
+div.content section p{
+    overflow: hidden;
+}
+div.content section nav{
+    font-size: 30px;line-height: 40px;color: #000;
+}
+/*배너(콘텐츠에서 헤더가 없는 상태)*/
+div.banner{
+    overflow: hidden;padding: 80px 0;
+}
+div.banner section{
+      width: 90%;max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+/*푸터*/
+div.ftrWrap{
+    
+}
+div.ftrWrap footer{
+      width: 90%;max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+div.ftrWrap footer h1{
+    font-size: 18px;line-height: 40px;
+}
+div.ftrWrap footer p{
+    font-family: 'Noto Sans KR';
+}
